@@ -1,6 +1,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
-    color: hsl(0, 0, 20%);
+    color: rgb(0, 0, 0);
+    background-color: #FCF9F9; 
 }
 
 .main-container {
@@ -34,11 +35,11 @@ ul.nav li{
     font-family: 'Raleway', sans-serif; 
 }
 
-#circle{
+/* #circle{
     font-size: 0.5em;
     margin-left: 3.5em;
     margin-right: 3.5em;
-}
+} */
 
 footer{
     font-size: x-small;
