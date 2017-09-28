@@ -1,7 +1,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     color: rgb(0, 0, 0);
-    background-color: #FCF9F9; 
+    background-color: #F8F8F8; 
 }
 
 .main-container {
@@ -22,7 +22,8 @@ a {
 }
 
 a:hover{
-    color: lightgray;
+    color: cadetblue;
+    transition: color 1s;
 }
 
 #feup{
@@ -44,4 +45,14 @@ ul.nav li{
 footer{
     font-size: x-small;
     color: lightgray;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+}
+
+h5{
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
 }
