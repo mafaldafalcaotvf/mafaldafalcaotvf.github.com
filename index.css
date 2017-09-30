@@ -24,6 +24,7 @@ a {
 a:hover{
     color: cadetblue;
     transition: color 1s;
+    text-decoration: none;
 }
 
 #feup{
@@ -51,8 +52,9 @@ h4{
     font-family: 'Raleway', sans-serif;
 }
 
-h5{
+#blog h5{
+    color: cadetblue;
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
-    font-style: italic;
+    font-weight: bold;
 }
