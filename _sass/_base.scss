@@ -1,5 +1,7 @@
+@import "settings";
+
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: $base-font-family;
     color: rgb(0, 0, 0);
     background-color: #F8F8F8; 
 }
@@ -19,12 +21,12 @@ ul#media li{
 
 a {
     color: inherit;
-}
 
-a:hover{
-    color: cadetblue;
-    transition: color 1s;
-    text-decoration: none;
+    &:hover{
+        color: cadetblue;
+        transition: color 1s;
+        text-decoration: none;
+    }
 }
 
 #feup{
@@ -34,22 +36,16 @@ a:hover{
 ul.nav li{
     color: lightgray;
     font-size: 0.75em;
-    font-family: 'Raleway', sans-serif; 
+    font-family: $body-font-family; 
 }
 
-/* #circle{
-    font-size: 0.5em;
-    margin-left: 3.5em;
-    margin-right: 3.5em;
-} */
-
-footer{
+footer {
     font-size: x-small;
     color: lightgray;
 }
 
-h4{
-    font-family: 'Raleway', sans-serif;
+h4 {
+    font-family: $body-font-family;
 }
 
 #blog h5{
@@ -58,3 +54,10 @@ h4{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
+
+#date{
+    font-style: italic;
+    color: cadetblue;
+    font-size: 0.75em;
+}
+

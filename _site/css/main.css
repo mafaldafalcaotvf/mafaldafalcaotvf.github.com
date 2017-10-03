@@ -1,0 +1,22 @@
+body { font-family: "Titillium Web", sans-serif; color: black; background-color: #F8F8F8; }
+
+.main-container { margin-top: 5em; }
+
+.img-circle { border-radius: 50%; }
+
+ul#media li { display: inline; margin-right: 1em; }
+
+a { color: inherit; }
+a:hover { color: cadetblue; transition: color 1s; text-decoration: none; }
+
+#feup { color: #640505; }
+
+ul.nav li { color: lightgray; font-size: 0.75em; font-family: "Raleway", sans-serif; }
+
+footer { font-size: x-small; color: lightgray; }
+
+h4 { font-family: "Raleway", sans-serif; }
+
+#blog h5 { color: cadetblue; font-size: 1em; font-family: 'Raleway', sans-serif; font-weight: bold; }
+
+#date { font-style: italic; color: cadetblue; font-size: 0.75em; }

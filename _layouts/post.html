@@ -1,0 +1,27 @@
+<html>
+
+{% include header.html %}
+
+<body>
+    {% include navbar.html %}
+    <div class="container mt-5">
+        <div class="row justify-content-center mt-5">
+            <div class="col-3">
+                <h4 class="text-center mt-3">{{page.title}}</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <p id="date" class="text-center">{{page.date | date_to_long_string}}</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-7">
+                {{content}}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
