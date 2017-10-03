@@ -2,8 +2,8 @@
 
 body {
     font-family: $base-font-family;
-    color: rgb(0, 0, 0);
-    background-color: #F8F8F8; 
+    color: $base-font-color;
+    background-color: $background-color; 
 }
 
 .main-container {
@@ -23,25 +23,25 @@ a {
     color: inherit;
 
     &:hover{
-        color: cadetblue;
+        color: $second-font-color;
         transition: color 1s;
         text-decoration: none;
     }
 }
 
 #feup{
-    color: rgb(100, 5, 5);
+    color: $feup-color;
 }
 
 ul.nav li{
-    color: lightgray;
+    color: $lighter-font-color;
     font-size: 0.75em;
     font-family: $body-font-family; 
 }
 
 footer {
     font-size: x-small;
-    color: lightgray;
+    color: $lighter-font-color;
 }
 
 h4 {
@@ -49,7 +49,7 @@ h4 {
 }
 
 #blog h5{
-    color: cadetblue;
+    color: $second-font-color;
     font-size: 1em;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
@@ -57,7 +57,7 @@ h4 {
 
 #date{
     font-style: italic;
-    color: cadetblue;
+    color: $second-font-color;
     font-size: 0.75em;
 }
 
