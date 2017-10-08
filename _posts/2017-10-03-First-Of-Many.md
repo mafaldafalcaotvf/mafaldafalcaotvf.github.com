@@ -11,6 +11,6 @@ Now that I finished my Masters and I am going to start to work as a junior resea
 
 P.S.: Also, feel free to use my Jekyll's theme :)
 
-*XOXO,*
+Until the next time!
 
 *Mafalda*

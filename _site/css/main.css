@@ -15,8 +15,8 @@ ul.nav li { color: lightgray; font-size: 0.75em; font-family: "Raleway", sans-se
 
 footer { font-size: x-small; color: lightgray; }
 
-h4 { font-family: "Raleway", sans-serif; }
+h1 { font-family: "Raleway", sans-serif; }
 
 #blog h5 { color: cadetblue; font-size: 1em; font-family: 'Raleway', sans-serif; font-weight: bold; }
 
-#date { font-style: italic; color: cadetblue; font-size: 0.75em; }
+#date { /*font-style: italic;*/ color: cadetblue; font-size: 0.8em; }
