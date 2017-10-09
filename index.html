@@ -23,46 +23,46 @@
                     innovation ever since I was a little girl. I have special interest in the areas of Data Science and Machine
                     Learning, Databases and Web Development. Besides Informatics, I'm also passionate about mathematics,
                     philosophy, biology, sports, traveling and photography.</p>
-                </div>
-            </div>
-            <div class="row justify-content-center mt-3">
-                <ul id="media">
-                    {% if site.facebook_username %}
-                    <li><a href="http://www.facebook.com/{{site.facebook_username}}"><i class="fa fa-facebook"></i></a></li>
-                    {% endif %}
-                    {% if site.github_username %}
-                    <li><a href="http://www.github.com/{{site.github_username}}"><i class="fa fa-github"></i></a></li>
-                    {% endif %}
-                    {% if site.twitter_username %}
-                    <li><a href="http://www.twitter.com/{{site.twitter_username}}"><i class="fa fa-twitter"></i></a></li>
-                    {% endif %}
-                    {% if site.linkedin_username %}
-                    <li><a href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="fa fa-linkedin"></i></a></li>
-                    {% endif %}
-                    {% if site.px500_username %}
-                    <li><a href="http://www.500px.com/{{site.px500_username}}"><i class="fa fa-500px"></i></a></li>
-                    {% endif %}
-                    {% if site.instagram_username %}
-                    <li><a href="http://www.instagram.com/{{site.instagram_username}}"><i class="fa fa-instagram"></i></a></li>
-                    {% endif %}
-                </ul>
-            </div>
-            <div class="row justify-content-center mt-5">
-                <div id="blog" class="col-md-6">
-                    <h4>Blog</h4>
-                    {% for post in site.posts %}
-                    <h5 class="mt-4"><a href="{{post.url}}">{{post.title}}</a></h5>
-                    {% if post.abstract %}
-                    {{post.abstract}}
-                    {% else %}
-                    {{post.excerpt}}
-                    {% endif %}
-                    {% endfor %}
-                </div>
+           </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <ul id="media">
+                {% if site.facebook_username %}
+                <li><a href="http://www.facebook.com/{{site.facebook_username}}"><i class="fa fa-facebook"></i></a></li>
+                {% endif %}
+                {% if site.github_username %}
+                <li><a href="http://www.github.com/{{site.github_username}}"><i class="fa fa-github"></i></a></li>
+                {% endif %}
+                {% if site.twitter_username %}
+                <li><a href="http://www.twitter.com/{{site.twitter_username}}"><i class="fa fa-twitter"></i></a></li>
+                {% endif %}
+                {% if site.linkedin_username %}
+                <li><a href="https://www.linkedin.com/in/{{site.linkedin_username}}"><i class="fa fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if site.px500_username %}
+                <li><a href="http://www.500px.com/{{site.px500_username}}"><i class="fa fa-500px"></i></a></li>
+                {% endif %}
+                {% if site.instagram_username %}
+                <li><a href="http://www.instagram.com/{{site.instagram_username}}"><i class="fa fa-instagram"></i></a></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div id="blog" class="col-md-6">
+                <h4>Blog</h4>
+                {% for post in site.posts %}
+                <h5 class="mt-4"><a href="{{post.url}}">{{post.title}}</a></h5>
+                {% if post.abstract %}
+                {{post.abstract}}
+                {% else %}
+                {{post.excerpt}}
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
-    </body>
-    
-    {% include footer.html %}
-    
-    </html>
+    </div>
+</body>
+
+{% include footer.html %}
+
+</html>
