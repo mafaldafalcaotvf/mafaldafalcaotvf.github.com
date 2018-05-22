@@ -33,12 +33,11 @@ a {
     color: $feup-color;
 }
 
-#work {
-    color: $lighter-font-color;
-    font-size: 0.75em;
+#name{
+    font-family: $body-font-family; 
 }
 
-ul.nav li{
+ul.nav li, #work{
     color: $lighter-font-color;
     font-size: 0.75em;
     font-family: $body-font-family; 
