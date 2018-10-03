@@ -14,9 +14,13 @@ body {
     border-radius: 50%;
 }
 
+ul#media{
+    padding-right: 2em;
+}
+
 ul#media li{
     display: inline;
-    margin-right: 1em;
+    margin-right: 0.6em;
 }
 
 a {
@@ -64,3 +68,6 @@ h1 {
     font-size: 0.8em;
 }
 
+#pdf{
+    width: 50%;
+}
