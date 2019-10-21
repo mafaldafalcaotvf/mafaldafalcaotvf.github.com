@@ -41,10 +41,11 @@ a {
     font-family: $body-font-family; 
 }
 
-ul.nav li, #work{
+.work{
     color: $lighter-font-color;
     font-size: 0.75em;
     font-family: $body-font-family; 
+    margin: 0;
 }
 
 footer {
