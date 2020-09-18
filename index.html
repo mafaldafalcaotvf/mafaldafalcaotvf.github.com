@@ -33,7 +33,13 @@
             </div>
             <div class="row justify-content-center mt-3">
                 <ul id="media">
-                    <li><a href="img/resume.pdf" target="_blank"><i class="far fa-file-pdf"></i></a></li>
+                    <li><a href="img/resume.pdf" target="_blank"><i class="ai ai-cv-square"></i></a></li>
+                    {% if site.scholar_username %}
+                    <li><a href="https://scholar.google.pt/citations?hl=pt-PT&pli=1&user={{site.scholar_username}}"><i class="ai ai-google-scholar-square"></i></a></li>
+                    {% endif %}
+                    {% if site.orcid_username %}
+                    <li><a href="https://orcid.org/{{site.orcid_username}}"><i class="ai ai-orcid-square"></i></a></li>
+                    {% endif %}
                     {% if site.github_username %}
                     <li><a href="http://www.github.com/{{site.github_username}}"><i class="fa fa-github"></i></a></li>
                     {% endif %}
